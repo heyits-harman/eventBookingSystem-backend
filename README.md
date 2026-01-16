@@ -1,6 +1,8 @@
 # Event Booking Backend (Seat Locking System)
 
-A backend system for event seat booking with **strong consistency**, **concurrency control**, and **time-bound reservations**.
+A backend system for event seat booking designed to handle concurrency,
+prevent double booking, and enforce strict state transitions using
+PostgreSQL transactions and Redis locks.
 
 This project focuses on backend engineering problems such as:
 - Seat locking under concurrency
