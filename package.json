@@ -1,0 +1,22 @@
+{
+  "name": "event_booking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node src/app.js",
+    "migrate": "node src/db/migrate.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "ioredis": "^5.8.2",
+    "node-pg-migrate": "^8.0.4",
+    "pg": "^8.16.3"
+  }
+}
